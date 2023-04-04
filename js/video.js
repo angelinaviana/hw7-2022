@@ -25,16 +25,11 @@ document.querySelector("#faster").addEventListener("click", function() {
 	console.log("Faster" + video.playbackRate)
 });
 
+// SKIP still working
 document.querySelector("#skip").addEventListener("click", function() {
     
 	console.log("Skip");
 
-	// if(video.currentTime <= video.duration -10) {
-	// 	video.currentTime += 10;
-	// }
-	// else {
-	// 	video.currentTime = 0
-	// }
 }); 
 
 // MUTE Still working
